@@ -1,5 +1,5 @@
 {
-    "name": "cybersource/rest-client-php",
+    "name": "Travelopia/cybersource-rest-client-php",
     "version": "0.0.46",
     "description": "Client SDK for CyberSource REST APIs",
     "keywords": [
@@ -18,9 +18,9 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "cache/apcu-adapter": ">=1.1.0",
+        "travelopia/apcu-adapter": "dev-master",
         "firebase/php-jwt": "^6.0.0",
-		"monolog/monolog": ">=1.25.0",
+        "monolog/monolog": ">=1.25.0",
         "web-token/jwt-framework": "^2.2.11"
     },
     "require-dev": {
